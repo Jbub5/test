@@ -15,6 +15,7 @@ extern char *pOptArg;               /* argument associated with option */
 #define  MISSING_OPT (int) 2  /* switch character '-' but no option */
 #define  MISSING_ARG (int) 3  /* option required argument but none found */
 #define  NON_OPT     (int) 4  /* non option found '|' not in option string */
+#define DEFAULT_FLAGS "-si" /* enable -s & -i flags by default */
 
 /* function prototypes
  */
